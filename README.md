@@ -1,5 +1,7 @@
 # Black Holes in the W-Structure
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24016341.svg)](https://doi.org/10.5281/zenodo.24016341)
+
 **Author:** Hrachya Danielyan · **License:** [CC BY 4.0](LICENSE)
 
 Main text: [black_hole.md](black_hole.md) ([PDF](black_hole.pdf)). Russian original: [black_hole_ru.md](black_hole_ru.md) ([PDF](black_hole_ru.pdf)).
@@ -12,4 +14,6 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 ## How to cite
 
-See [CITATION.cff](CITATION.cff). The DOI will be added after archiving in Zenodo.
+Danielyan, H. (2026). *Black Holes in the W-Structure* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.24016341
+
+See also [CITATION.cff](CITATION.cff).
