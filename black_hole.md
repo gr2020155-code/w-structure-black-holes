@@ -1,8 +1,8 @@
 # Black Holes in the W-Structure
 
-**Author:** Hrachya Danielyan. **Version:** 1.0, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
+**Author:** Hrachya Danielyan. **Version:** 1.1, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
 
-In the W-Structure, a black hole is the limit 3W: all possible links are realized, and nothing changes inside. There is no singularity: inside the limit there is no three-dimensional space. Outside, space densifies layer by layer, and the field has the form e^(±δ). With δ = GM/(rc²) this is the exponential metric, the same as in Papapetrou (1954) and Yilmaz (1958). Hence the difference from general relativity (GR): the throat is at 2.72 GM/c², and the shadow is 4.6 % larger. What is new here is the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known.
+In the W-Structure, a black hole is the limit 3W: all possible links are realized, and nothing changes inside. There is no singularity: inside the limit there is no three-dimensional space. Outside, space densifies layer by layer, and the field has the form e^(±δ). With δ = GM/(rc²) this is the exponential metric, the same as in Papapetrou (1954) and Yilmaz (1958). Hence the difference from general relativity (GR): the throat is at 2.72 GM/c², and the shadow is 4.6 % larger (for the unmodified exponential metric, section 4). What is new here is the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known.
 
 Labels: [author] — a position of the author; [compendium] — a position of the author's working compendium "W-Structure" v1.31 (unpublished; the positions used are given in section 2); [derived] — follows from what is named; [calculated] — computed from what is named; [condition] — a premise the result depends on; [estimate] — an approximate calculation; [check] — comparison with data or literature.
 
@@ -19,7 +19,7 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 | The black hole itself (3W) does not rotate; the layers around it rotate, the layer W − 1 not faster than light; rotation of the layers changes the field outside | author, derived | positions 5, 10, 17 |
 | The bound χ ≤ 1 is not derived from the Structure | derived | section 5 |
 | There is one primordial black hole — at O; there are no black holes lighter than the limit of a non-rotating neutron star (minus mass carried away in collapse) | author, derived under a condition | positions 14, 16 |
-| No Hawking radiation from 3W | author | position 11 |
+| No steady Hawking flux: there is no horizon, and the redshift at the throat is finite | derived under a condition | section 6 |
 
 ## 2. Basis
 
@@ -86,7 +86,7 @@ Paths of bodies end at the throat: what reaches it passes into indistinguishabil
 - the perihelion of Mercury is a second-order check in GM/(rc²). Both factors are needed: the second-order term in the rate and the first-order path factor e^(+δ). With e^(±δ) the result is the same as in GR — about 43″ per century; the observed excess agrees. The rate alone, without the path factor, would give only a third, about 14.3″;
 - light deflection at the Sun with e^(±δ) is 1.75″, as in G1. The "two channels" of G1 are exactly the rate and the path factor e^(+δ), not an addition to them; otherwise the contribution would be counted twice.
 
-Near the throat, where δ ~ 1, the law is not tested (section 9).
+Near the throat, where δ ~ 1, the law is not tested (section 9). The circular photon orbit lies at δ = 1/2, inside this untested region. The perihelion and light deflection fix the law only up to second order in δ. A third-order change leaves them unchanged but shifts the shadow: for example, a rate e^(−δ+εδ³) changes the critical impact parameter by −ε/8 in relative terms. So the shadow numbers below are predictions of the unmodified exponential metric, not of every law with the same weak field.
 
 **Where the mass is and under which condition the numbers hold** [condition]. The numbers below are obtained for δ = GM/(rc²), that is, as if all of the mass M lies deeper than the layer considered. By position 6 the mass lies in the layers around, denser closer to the limit. So the numbers hold outside the massive layers. If the massive layers are thin compared with GM/c², the numbers hold approximately near the throat as well. The law of mass distribution over the layers is not derived (section 9).
 
@@ -138,7 +138,7 @@ What is our own here:
 
 **Last light** [derived under the condition of section 4]. There is no event horizon, so an infalling body reaches the throat in a finite time of the distant observer. Light emitted at the throat itself arrives with a finite redshift: 1 + z = e ≈ 2.72 for a static emitter; for matter freely falling from rest at infinity, from ≈ 12 to ≈ 14 depending on the ray direction (≈ 14 for a ray strictly outward; rays deviating from the radius by more than ≈ 47° are captured); dimming 2·10⁴–4·10⁴. In GR the redshift at the horizon is infinite. This difference is observable in principle; the brightness inside the shadow has to be calculated (section 9).
 
-**No Hawking radiation from 3W** [author, position 11]. At the limit there is complete indistinguishability and no three-dimensional space; there is nothing to radiate and nowhere to radiate to. The question for the layer W − 1 is open (section 9).
+**No steady Hawking flux** [derived under a condition]. The thermal Hawking flux does not need matter inside; it arises in the quantum fields outside, and it requires an exponential stretching of light rays — a redshift that grows without bound (a horizon is not required, but this stretching is; Barceló, Liberati, Sonego, Visser, 2011). The exponential metric has no horizon, and the redshift at the throat is finite (section 6, "Last light"). Therefore the standard mechanism gives no steady thermal flux. This does not say that Hawking's calculation is wrong; it says that it does not apply to this throat. Open: a transient burst while the geometry changes during formation, and the effect of the throat as a perfectly absorbing boundary on quantum fields (section 9). Separately, by position 11 nothing radiates from 3W itself [author].
 
 ## 7. Masses of black holes
 
@@ -154,16 +154,16 @@ What is our own here:
 | Light from matter at the throat | finite redshift (about 12–14 for free fall) | redshift at the horizon is infinite | image inside the shadow, flares at the edge | brightness calculation needed |
 | No black holes lighter than the neutron-star limit (minus mass carried away in collapse) | — | allows light primordial ones | a securely established black hole lighter than the heaviest securely measured neutron star (now about 2.1 solar masses, PSR J0740+6620) would refute the prediction, if little mass was carried away at its formation | none known. Objects in the "mass gap" (GW230529: 2.5–4.5; GW190814: about 2.6) are heavier than the measured neutron stars and do not contradict the prediction: if they are black holes, the limit is not above their mass |
 | No echoes | — | no echoes in GR either | echo searches after mergers | not found; consistent, but does not distinguish from GR |
-| No Hawking radiation from 3W (open for the layer W − 1, section 9) | — | present, but immeasurably small for stellar black holes | only for light black holes, which do not exist according to the Structure | practically untestable |
+| No steady Hawking flux (no horizon, finite redshift; a burst during formation is open, section 9) | — | present, but immeasurably small for stellar black holes | only for light black holes, which do not exist according to the Structure | practically untestable |
 | ISCO 6.34 GM/c² | — | 6 GM/c² without rotation | disk edge, oscillations | cannot be distinguished without the field law for rotating layers: a Kerr black hole with χ ≈ −0.10 gives the same value |
 
-The main test is the shadow size: a 4.6 % difference for non-rotating layers. By position 15 the layers of real black holes rotate (angular momentum of the progenitor star); rotation of the layers, like rotation of the black hole in GR, may change the size and shape of the shadow, and the law for this is not derived (9.5, 9.11). Until it is derived, the shadow size is not a single number free of fitting. Spin estimates are currently obtained in Kerr models with the bound χ ≤ 1; testing χ requires signal models based on the Structure.
+The main test is the shadow size: a 4.6 % difference for non-rotating layers and the unmodified exponential law at δ ≈ 1/2 (section 4). By position 15 the layers of real black holes rotate (angular momentum of the progenitor star); rotation of the layers, like rotation of the black hole in GR, may change the size and shape of the shadow, and the law for this is not derived (9.5, 9.11). Until it is derived, the shadow size is not a single number free of fitting. Spin estimates are currently obtained in Kerr models with the bound χ ≤ 1; testing χ requires signal models based on the Structure.
 
 ## 9. Open questions
 
 1. **3W = 40 or 00.** Depends on a proof that three dimensions are the limit of W for dimensionality (F13).
 2. **Mass distribution over the layers and δ(r).** The numbers of section 4 hold outside the massive layers. A law of mass distribution over the layers (position 6) and δ(r) inside the massive layers are needed. Related: which links count as mass. If, following O8, the densification of links e^(+δ) around the black hole itself counted as mass, its total mass would grow without bound with distance; so something else must count as mass (for example, its change from layer to layer). The definitions of mass are not reduced to one.
-3. **The law of δ near the throat.** It is checked against the perihelion to second order. At δ ~ 1 it is not derived from the structure.
+3. **The law of δ near the throat.** It is checked against the perihelion to second order. At δ ~ 1 it is not derived from the structure. The shadow depends on it: the photon orbit lies at δ = 1/2 (section 4).
 4. **Does the layer W − 1 radiate?** Position 11 closes 3W. The layer W − 1 is not saturated and rotates; there are changes in it. A reason why it does not radiate is needed.
 5. **The field of rotating layers.** A law is needed by which the rotation of the layers (frame dragging, G4) changes the field at the throat. The size and shape of the shadow, the ISCO, the ceiling on χ and the difference from GR for rotating systems depend on it.
 6. **Field equations and merger signals.** Without them there is no prediction of the ringdown after a merger. In the Structure waves do not return from the throat; the spectrum of these oscillations has to be calculated.
@@ -174,6 +174,7 @@ The main test is the shadow size: a 4.6 % difference for non-rotating layers. By
 11. **The shadow for rotating layers.** The layers of real black holes rotate (position 15: angular momentum of the progenitor star). The numbers of section 4 and the shadow 2e are given for non-rotating layers — the limit of slow rotation. A law is needed by which the rotation of the layers changes the size and shape of the shadow (see 9.5); until then the comparison with observations is fair only for black holes with slowly rotating layers.
 12. **The path of collapse (condition 16).** Why, away from O, there is no path to 3W that bypasses a neutron star (for example, early densifications). How much mass can be carried away in collapse: without this bound the threshold of section 8 is not defined.
 13. **Entropy and area.** Inside 3W there are no distinctions (position 11). Therefore everything by which one black hole differs from another lies on the throat, and the number of its states is set by the area of the throat, not by its volume. This agrees with the Bekenstein–Hawking law (entropy ∝ area). Not derived: (a) the link "number of throat points → number of states"; (b) the numerical factor (in the standard formula, 1/4 in Planck units): the step length is not defined in the Structure, so the numbers cannot be compared.
+14. **Emission during formation and the absorbing boundary.** The steady Hawking flux is absent (section 6). Not calculated: a transient burst while the geometry changes during collapse, and what the throat, as a boundary that absorbs everything, does to quantum fields.
 
 ## Sources
 
@@ -185,4 +186,6 @@ The main test is the shadow size: a 4.6 % difference for non-rotating layers. By
 - [LIGO, Virgo, KAGRA. Observation of gravitational waves from the coalescence of a 2.5–4.5 M☉ compact object and a neutron star (GW230529)](https://arxiv.org/abs/2404.04248). Astrophysical Journal Letters (2024), doi:10.3847/2041-8213/ad5beb.
 - [LIGO, Virgo, KAGRA. Tests of general relativity with GWTC-3](https://arxiv.org/abs/2112.06861). Physical Review D 112, 084080 (2025), doi:10.1103/PhysRevD.112.084080.
 - [Romani R. W. et al. PSR J0952−0607: the fastest and heaviest known Galactic neutron star](https://arxiv.org/abs/2207.05124). Astrophysical Journal Letters (2022), doi:10.3847/2041-8213/ac8007.
+- Hawking S. W. Particle creation by black holes. Communications in Mathematical Physics 43, 199–220 (1975).
+- [Barceló C., Liberati S., Sonego S., Visser M. Hawking-like radiation from evolving black holes and compact horizonless objects](https://arxiv.org/abs/1011.5911). Journal of High Energy Physics 02 (2011) 003.
 - [Fonseca E. et al. Refined mass and geometric measurements of the high-mass PSR J0740+6620](https://doi.org/10.3847/2041-8213/ac03b8). Astrophysical Journal Letters 915, L12 (2021): 2.08 ± 0.07 solar masses.

@@ -7,7 +7,7 @@
       "name": "Danielyan, Hrachya"
     }
   ],
-  "description": "<p>In the W-Structure, a black hole is the saturation limit 3W: all possible links are realized and nothing changes inside; there is no singularity. Outside, space densifies layer by layer: clock rate e^(−δ), steps per unit path e^(+δ). With δ = GM/(rc²) this is the exponential metric (as in Papapetrou and Yilmaz), which differs from general relativity: throat at e·GM/c² ≈ 2.72 GM/c², shadow radius 2e·GM/c² ≈ 5.44 GM/c², 4.6% larger than in GR (non-rotating layers). New here: the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known. Predictions: larger shadow; finite redshift of light near the throat; no black holes lighter than the neutron-star limit (minus mass lost in collapse); no echoes and no Hawking radiation from 3W. Underived points are listed as open questions. English text with the Russian original included.</p>",
+  "description": "<p>In the W-Structure, a black hole is the saturation limit 3W: all possible links are realized and nothing changes inside; there is no singularity. Outside, space densifies layer by layer: clock rate e^(−δ), steps per unit path e^(+δ). With δ = GM/(rc²) this is the exponential metric (as in Papapetrou and Yilmaz), which differs from general relativity: throat at e·GM/c² ≈ 2.72 GM/c², shadow radius 2e·GM/c² ≈ 5.44 GM/c², 4.6% larger than in GR (non-rotating layers, unmodified exponential metric near the photon orbit). New here: the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known. Predictions: larger shadow; finite redshift of light near the throat; no black holes lighter than the neutron-star limit (minus mass lost in collapse); no echoes; no steady Hawking flux (no horizon, finite redshift at the throat). Underived points are listed as open questions. English text with the Russian original included.</p>",
   "language": "eng",
   "license": "cc-by-4.0",
   "keywords": [
@@ -17,5 +17,5 @@
     "black hole shadow",
     "W-Structure"
   ],
-  "version": "1.0"
+  "version": "1.1"
 }
