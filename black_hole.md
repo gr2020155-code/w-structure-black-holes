@@ -1,6 +1,6 @@
 # Black Holes in the W-Structure
 
-**Author:** Hrachya Danielyan. **Version:** 1.3, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
+**Author:** Hrachya Danielyan. **Version:** 1.4, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
 
 In the W-Structure, a black hole is the limit 3W: all possible links are realized, and nothing distinguishable changes inside. There is no singularity: inside the limit there is no three-dimensional space. Outside, space densifies layer by layer, and the field has the form e^(±δ). With δ = GM/(rc²) this is the exponential metric, the same as in Papapetrou (1954) and Yilmaz (1958). Hence the difference from general relativity (GR): the throat is at 2.72 GM/c², and the shadow is 4.6 % larger (for the unmodified exponential metric, section 4). What is new here is the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known.
 
@@ -18,7 +18,7 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 | Light from matter at the throat arrives with a finite redshift: 1 + z = e for a static emitter, about 12–14 for freely falling matter (depends on the ray direction); in GR it is infinite at the horizon | derived under a condition | sections 4 and 6 |
 | The black hole itself (3W) does not rotate; the layers around it rotate, the layer W − 1 not faster than light; rotation of the layers changes the field outside | author, derived | positions 5, 10, 17 |
 | The bound χ ≤ 1 is not derived from the Structure | derived | section 5 |
-| There is one primordial black hole — at O; there are no black holes lighter than the limit of a non-rotating neutron star (minus mass carried away in collapse) | author, derived under a condition | positions 14, 16 |
+| There are no primordial black holes: only collapse leads to 3W; there are no black holes lighter than the limit of a non-rotating neutron star (minus mass carried away in collapse) | author, derived under a condition | positions 14, 16 |
 | No steady Hawking flux: there is no horizon, and the redshift at the throat is finite | derived under a condition | section 6 |
 
 ## 2. Basis
@@ -54,12 +54,12 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 11. Radiation from 3W is impossible: there is absolute self-consistency there — indistinguishability; there is no three-dimensional space.
 12. Energy and mass that reach the throat turn into indistinguishability "inside" and increase the diameter of the throat.
 13. (Consequence of 3, 4, 12.) Nothing that has reached the throat returns to three-dimensional space.
-14. There is one primordial black hole — at the zero point O. All others are not primordial: away from O, only collapse leads to 3W.
+14. [corrected in version 1.4] There are no primordial black holes. A black hole appears when all distinguishabilities are realized in a locally self-closed system; only collapse leads to this. At the zero point O there is no such realization: O is the first in order, but in the dynamics of links it is not distinguished and makes the global figure-eight like every other point. (Versions 1.0–1.3 stated "there is one primordial black hole — at O"; the author has withdrawn that position.)
 15. Matter in the layer W − 1 is held back: one step remains to the limit, and the inflow is one-dimensional, so it does not enter in one step and orbits before merging with "nothing". The direction and magnitude of this rotation are set by the angular momentum of the progenitor star: it is conserved in contraction (O3), and the layers spin up. All real stars rotate, so the layers practically always rotate; with strictly spherical infall without rotation there would be no reason to rotate.
-16. [condition] Collapse away from O is the collapse of matter that a neutron star cannot hold; there is no other path to 3W (this condition also excludes light black holes from early densifications; it does not follow from position 14: their formation is also a collapse).
+16. [condition] The collapse that leads to 3W is the collapse of matter that a neutron star cannot hold; there is no other path to 3W (this condition also excludes light black holes from early densifications: their formation is also a collapse, and position 14 alone does not exclude them).
 17. Rotation of the layers affects the field outside (the motion channel, as in G1 and G4). Therefore the shadow may also depend on the rotation of the layers.
 18. At the throat, self-closed links do not break (O4: a link does not disappear) but lose distinguishability. A form is a distinguishable group of links; when all possible links are realized, there is nothing to single a group out from. This is the mechanism of position 12.
-19. The mechanism is the same for the point O and for all other black holes: realization of all possible links. The point O became a black hole this way; the others reach it through collapse (positions 14, 16).
+19. The mechanism is the same for all black holes: realization of all distinguishabilities in a locally self-closed system; the path to it is collapse (positions 14, 16).
 
 ## 3. What a black hole is
 
@@ -145,7 +145,7 @@ What is our own here:
 
 ## 7. Masses of black holes
 
-**There is one primordial black hole** [author, position 14]. It is the black hole at the zero point O. All observed black holes are not primordial: away from O, only collapse leads to 3W.
+**There are no primordial black holes** [author, position 14]. All black holes result from collapse.
 
 **No black holes lighter than the neutron-star limit minus the mass carried away** [derived under a condition, positions 14, 16]. Collapse reaches 3W only when a neutron star cannot hold the matter. Hence the mass of any observed black hole is not less than the limit of a non-rotating neutron star minus the mass carried away in collapse. (Rotation raises the limit for the star itself by about 20 %.) The value of the limit is not computed in the Structure. The heaviest measured neutron stars are about 2.1 and 2.35 solar masses (PSR J0740+6620 and PSR J0952−0607).
 
@@ -173,9 +173,9 @@ The main test is the shadow size: a 4.6 % difference for non-rotating layers and
 7. **Brightness inside the shadow.** A calculation of the emission of gas on rays inside the shadow is needed, including between the photon orbit and the throat, taking the motion of the gas into account.
 8. **The maximum neutron-star mass in the Structure.** At present the bound is taken from observations.
 9. **How the external mass M grows.** There is no mass in the core (position 6), and what reaches the throat becomes indistinguishability and increases the throat (position 12). How the mass M seen from outside grows, and how it relates to the mass of the layers, is not derived.
-10. **The black hole at the point O and the edge of space** (F5, F11). Not considered in this file.
+10. **The edge of space** (F11). Not considered in this file.
 11. **The shadow for rotating layers.** The layers of real black holes rotate (position 15: angular momentum of the progenitor star). The numbers of section 4 and the shadow 2e are given for non-rotating layers — the limit of slow rotation. A law is needed by which the rotation of the layers changes the size and shape of the shadow (see 9.5); until then the comparison with observations is fair only for black holes with slowly rotating layers.
-12. **The path of collapse (condition 16).** Why, away from O, there is no path to 3W that bypasses a neutron star (for example, early densifications). How much mass can be carried away in collapse: without this bound the threshold of section 8 is not defined.
+12. **The path of collapse (condition 16).** Why there is no path to 3W that bypasses a neutron star (for example, early densifications). How much mass can be carried away in collapse: without this bound the threshold of section 8 is not defined.
 13. **Entropy and area.** Inside 3W there are no distinctions (position 11). Therefore everything by which one black hole differs from another lies on the throat, and the number of its states is set by the area of the throat, not by its volume. This agrees with the Bekenstein–Hawking law (entropy ∝ area). Not derived: (a) the link "number of throat points → number of states"; (b) the numerical factor (in the standard formula, 1/4 in Planck units): the step length is not defined in the Structure, so the numbers cannot be compared.
 14. **Emission during formation and the absorbing boundary.** The steady Hawking flux is absent (section 6). Not calculated: a transient burst while the geometry changes during collapse, and what the throat, as a boundary that absorbs everything, does to quantum fields.
 
