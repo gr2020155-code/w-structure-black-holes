@@ -12,6 +12,12 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 **Predictions:** a 4.6 % larger shadow (for the unmodified exponential metric); a finite redshift of light emitted near the throat; no black holes lighter than the neutron-star limit (minus mass carried away in collapse); no echoes; no steady Hawking flux, because there is no horizon and the redshift at the throat is finite. Every point that is not derived is listed in section 9, "Open questions".
 
+## Changes in version 1.3
+
+- The definition of a link is stated explicitly: a stable sequence of acts of change (movements of points); one act is one step and one tick; length is the number of steps. It replaces the earlier definition (a failed attempt at change).
+- O3 is quoted in full, including "a closed system as a whole does not change (conservation laws)", which position 15 and section 5 rely on for the conservation of angular momentum.
+- Wordings brought in line with the definition: inside 3W nothing *distinguishable* changes; the field counts steps (not links) per unit path; O4 is restricted to the limit 3W. No number in the paper changes.
+
 ## Changes in version 1.2
 
 - Section 4: the perihelion of Mercury also fixes how the layer factors combine. With multiplicative composition (as derived) the second-order term matches GR; additive composition with the same first order would give PPN β = 3/2 and about 35.8″ per century instead of 43″.

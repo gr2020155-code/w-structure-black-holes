@@ -1,8 +1,8 @@
 # Black Holes in the W-Structure
 
-**Author:** Hrachya Danielyan. **Version:** 1.2, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
+**Author:** Hrachya Danielyan. **Version:** 1.3, November 2026. **License:** CC BY 4.0. Russian original: [black_hole_ru.md](black_hole_ru.md).
 
-In the W-Structure, a black hole is the limit 3W: all possible links are realized, and nothing changes inside. There is no singularity: inside the limit there is no three-dimensional space. Outside, space densifies layer by layer, and the field has the form e^(±δ). With δ = GM/(rc²) this is the exponential metric, the same as in Papapetrou (1954) and Yilmaz (1958). Hence the difference from general relativity (GR): the throat is at 2.72 GM/c², and the shadow is 4.6 % larger (for the unmodified exponential metric, section 4). What is new here is the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known.
+In the W-Structure, a black hole is the limit 3W: all possible links are realized, and nothing distinguishable changes inside. There is no singularity: inside the limit there is no three-dimensional space. Outside, space densifies layer by layer, and the field has the form e^(±δ). With δ = GM/(rc²) this is the exponential metric, the same as in Papapetrou (1954) and Yilmaz (1958). Hence the difference from general relativity (GR): the throat is at 2.72 GM/c², and the shadow is 4.6 % larger (for the unmodified exponential metric, section 4). What is new here is the derivation of the field form from layers and links, and what lies beyond the throat; the numbers for this metric are known.
 
 Labels: [author] — a position of the author; [compendium] — a position of the author's working compendium "W-Structure" v1.31 (unpublished; the positions used are given in section 2); [derived] — follows from what is named; [calculated] — computed from what is named; [condition] — a premise the result depends on; [estimate] — an approximate calculation; [check] — comparison with data or literature.
 
@@ -10,7 +10,7 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 
 | Statement | Status | Basis |
 | --- | --- | --- |
-| A black hole is the limit 3W: saturation (O3), nothing changes inside | author, compendium | O3, positions 1–2 |
+| A black hole is the limit 3W: saturation (O3), nothing distinguishable changes inside | author, compendium | O3, positions 1–2 |
 | There is no singularity (no infinite quantities) | derived | positions 2, 3, 11; the rate e^(−δ) is finite |
 | The field around: rate e^(−δ), steps per unit path e^(+δ) | derived | O5–O6, positions 7–9 |
 | Throat 2.72 GM/c²; shadow 5.44 GM/c² (GR 5.20); ISCO 6.34 GM/c² (GR 6) — for non-rotating layers | calculated under a condition | δ = GM/(rc²), isotropic densification, section 4 |
@@ -23,13 +23,15 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 
 ## 2. Basis
 
+**Link** [author, November 2026]. A link is a stable sequence of acts of change (movements of points). One act is one step and one tick; length is the number of steps. This definition replaces the compendium v1.31 definition (O2: a link is a failed attempt at change); the positions below are given in wordings consistent with it.
+
 **Positions of the compendium v1.31:**
 
-- **O3** [author]. Closure and saturation are different. In saturation (W) all attempts fail and nothing changes — this is the case of a black hole.
-- **O4** [author]. Every successful attempt leaves a realized link; saturation only grows.
-- **O5–O6** [author]. Time is a measure of changes. One step = one link = the unit of both path and time; the rate of steps is constant; density increases the number of steps along a path.
+- **O3** [author]. Closure and saturation are different. A closed system as a whole does not change (conservation laws), but while it is not saturated, new links arise in it. In saturation (W) all possible links are realized: a new act can only go along an existing link and creates no distinguishable change — this is the case of a black hole.
+- **O4** [author]. A link that reaches the limit 3W does not disappear; the limit only grows. (In compendium v1.31 this is the general "saturation only grows"; here it is used only for the limit 3W.)
+- **O5–O6** [author]. Time is a measure of changes. One step (one act) is the unit of both path and time; the rate of steps is constant; density increases the number of steps along a path.
 - **O8–O9** [author]. Mass is the density of local links. (The formulations of mass in the working documents are not yet reduced to one.)
-- **G2, G3** [compendium]. Rate e^(−δ); number of links per unit path e^(+δ).
+- **G2, G3** [compendium]. Rate e^(−δ); number of steps per unit path e^(+δ).
 - **G7** [compendium]. A black hole is the limit 3W, without a singularity.
 - **G8** [compendium]. No Hawking radiation, no black holes lighter than the maximum neutron-star mass, no echoes.
 - **G9** [compendium]. "Rotation" is a property of the horizon and the medium; a ceiling from nested rings; χ > 1 possible (estimate). The G9 estimate is not adopted here: the ceiling on χ is not derived (section 5). The "horizon" in G9 is the throat layer (section 3).
@@ -39,14 +41,14 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 
 **Positions of the author** [author]:
 
-1. 3W — all possible links are realized, everything "freezes". Inside 3W there are no changes; the boundary grows by what arrives from outside. 3W is the same saturation as in O3.
+1. 3W — all possible links are realized, everything "freezes". Inside 3W there are no distinguishable changes; the boundary grows by what arrives from outside. 3W is the same saturation as in O3.
 2. "Infinite approach" to the limit is in fact a difference of one discrete step.
 3. The throat is the smallest circle, where growth inward ends; further inward there is no three-dimensional space.
 4. A black hole grows one-dimensionally: infalling matter does not hit a wall but merges with "nothing" (from the point of view of three-dimensional space).
 5. One cannot speak of the rotation of the black hole itself: 3W does not rotate. The layer W − 1 rotates; the limit W itself only grows. Matter in the outer layers orbits at different speeds, as in any gravity.
 6. There is no mass in the "core". Mass is in the layers around it; the closer a layer is to the limit, the greater its mass.
-7. Densification of path and slowing of time are one phenomenon: more links per path — more steps for the same path.
-8. The number of links per unit path changes from layer to layer by the same factor as the rate.
+7. Densification of path and slowing of time are one phenomenon: more steps for the same path.
+8. The number of steps per unit path changes from layer to layer by the same factor as the rate.
 9. The distance r is counted in layers: there is one unit of r between neighbouring layers, while the number of steps per layer grows.
 10. One indivisible change takes one indivisible interval of local time.
 11. Radiation from 3W is impossible: there is absolute self-consistency there — indistinguishability; there is no three-dimensional space.
@@ -61,7 +63,7 @@ Labels: [author] — a position of the author; [compendium] — a position of th
 
 ## 3. What a black hole is
 
-**3W is saturation** [author, O3]. All possible links are realized. Every attempt goes along an already existing link and fails. Inside there are no changes; the boundary grows by what arrives from outside (position 1).
+**3W is saturation** [author, O3]. All possible links are realized. Every new act goes along an already existing link and creates no distinguishable change. Inside there are no distinguishable changes; the boundary grows by what arrives from outside (position 1).
 
 **There is no singularity** [derived]. A singularity here is a place where quantities become infinite. There is no such place:
 
@@ -79,7 +81,7 @@ Paths of bodies end at the throat: what reaches it passes into indistinguishabil
 
 **Rate** [derived from O5–O6; G2]. The rate is defined only relative to the neighbouring layer, so the rate ratios of neighbouring layers multiply. If the logarithm of the ratio of neighbouring layers equals the increment of δ, and the step between layers is small compared with the scale on which δ changes, the product gives e^(−δ) relative to a distant observer.
 
-**Densification of path** [derived from positions 7–8]. The number of links per unit path changes from layer to layer by a factor of the same size, inverse to the rate factor, so there are e^(+δ) steps per unit r. This is the same phenomenon as the slowing of time. The factor is the same along the radius and around the circle [condition: isotropic densification]; without densification the circumference of layer r is 2πr.
+**Densification of path** [derived from positions 7–8]. The number of steps per unit path changes from layer to layer by a factor of the same size, inverse to the rate factor, so there are e^(+δ) steps per unit r. This is the same phenomenon as the slowing of time. The factor is the same along the radius and around the circle [condition: isotropic densification]; without densification the circumference of layer r is 2πr.
 
 **The magnitude of δ** [condition]. δ = GM/(rc²), where r is the layer count (position 9). Checks of this law:
 
