@@ -12,6 +12,11 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 **Predictions:** a 4.6 % larger shadow (for the unmodified exponential metric); a finite redshift of light emitted near the throat; no black holes lighter than the neutron-star limit (minus mass carried away in collapse); no echoes; no steady Hawking flux, because there is no horizon and the redshift at the throat is finite. Every point that is not derived is listed in section 9, "Open questions".
 
+## Changes in version 1.4
+
+- Position 14 is withdrawn by the author: there is no primordial black hole at the zero point O. A black hole appears only when a locally self-closed system realizes all its distinguishabilities, and only collapse leads to that. O is the first point in order, but in the dynamics of links it is not special and makes the global figure-eight like every other point.
+- Positions 16 and 19, section 8 and open questions 10 and 12 are updated accordingly. The prediction of no black holes lighter than the neutron-star limit is unchanged; it now holds without any exception.
+
 ## Changes in version 1.3
 
 - The definition of a link is stated explicitly: a stable sequence of acts of change (movements of points); one act is one step and one tick; length is the number of steps. It replaces the earlier definition (a failed attempt at change).
