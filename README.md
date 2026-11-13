@@ -12,6 +12,11 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 **Predictions:** a 4.6 % larger shadow (for the unmodified exponential metric); a finite redshift of light emitted near the throat; no black holes lighter than the neutron-star limit (minus mass carried away in collapse); no echoes; no steady Hawking flux, because there is no horizon and the redshift at the throat is finite. Every point that is not derived is listed in section 9, "Open questions".
 
+## Changes in version 1.2
+
+- Section 4: the perihelion of Mercury also fixes how the layer factors combine. With multiplicative composition (as derived) the second-order term matches GR; additive composition with the same first order would give PPN β = 3/2 and about 35.8″ per century instead of 43″.
+- Open question 2: the author's position from the work on the mechanism of gravity is added — mass is the density of self-closed links, links continuing into the medium are not mass; so the densification e^(+δ) around a black hole is not counted as mass.
+
 ## Changes in version 1.1
 
 - The shadow prediction (4.6 %) is now stated as a prediction of the unmodified exponential metric: the photon orbit lies at δ = 1/2, where the field law is not tested, and a third-order change that keeps the perihelion and light deflection can still shift the shadow (section 4).
@@ -19,8 +24,8 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 ## How to cite
 
-Danielyan, H. (2026). *Black Holes in the W-Structure* (v1.1). Zenodo. https://doi.org/10.5281/zenodo.24061295
+Danielyan, H. (2026). *Black Holes in the W-Structure*. Zenodo. https://doi.org/10.5281/zenodo.24016340 (all versions, resolves to the latest)
 
-All versions (always resolves to the latest): https://doi.org/10.5281/zenodo.24016340 · Version 1.0: https://doi.org/10.5281/zenodo.24016341
+Version 1.1: https://doi.org/10.5281/zenodo.24061295 · Version 1.0: https://doi.org/10.5281/zenodo.24016341
 
 See also [CITATION.cff](CITATION.cff).
