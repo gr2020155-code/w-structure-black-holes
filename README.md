@@ -30,8 +30,8 @@ In the W-Structure, a black hole is the saturation limit 3W: all possible links 
 
 ## How to cite
 
-Danielyan, H. (2026). *Black Holes in the W-Structure* (v1.2). Zenodo. https://doi.org/10.5281/zenodo.24184492
+Danielyan, H. (2026). *Black Holes in the W-Structure* (v1.3). Zenodo. https://doi.org/10.5281/zenodo.24197084
 
-All versions (always resolves to the latest): https://doi.org/10.5281/zenodo.24016340 · Version 1.1: https://doi.org/10.5281/zenodo.24061295 · Version 1.0: https://doi.org/10.5281/zenodo.24016341
+All versions (always resolves to the latest): https://doi.org/10.5281/zenodo.24016340 · Version 1.2: https://doi.org/10.5281/zenodo.24184492 · Version 1.1: https://doi.org/10.5281/zenodo.24061295 · Version 1.0: https://doi.org/10.5281/zenodo.24016341
 
 See also [CITATION.cff](CITATION.cff).
